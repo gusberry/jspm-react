@@ -19,9 +19,10 @@ System.config({
     "core-js": "npm:core-js@1.2.6",
     "react": "npm:react@0.14.3",
     "react-dom": "npm:react-dom@0.14.3",
-    "react-intl": "npm:react-intl@2.0.0-beta-1",
+    "react-intl": "http://0.0.0.0:3000/cdn/react-intl@2.0.0-beta-1",
     "react-router": "npm:react-router@1.0.0",
     "react-tap-event-plugin": "npm:react-tap-event-plugin@0.2.1",
+    "truefalse-item-builder": "http://0.0.0.0:3000/cdn/truefalse-item-builder@0.0.2",
     "github:capaj/jspm-hot-reloader@0.4.2": {
       "lodash.clonedeep": "npm:lodash.clonedeep@3.0.2",
       "socket.io-client": "github:socketio/socket.io-client@1.3.7",
@@ -69,8 +70,11 @@ System.config({
     },
     "npm:buffer@3.5.2": {
       "base64-js": "npm:base64-js@0.0.8",
+      "child_process": "github:jspm/nodelibs-child_process@0.1.0",
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
       "ieee754": "npm:ieee754@1.1.6",
-      "is-array": "npm:is-array@1.0.1"
+      "is-array": "npm:is-array@1.0.1",
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:core-js@1.2.6": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
@@ -119,11 +123,11 @@ System.config({
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
-    "npm:intl-messageformat@1.2.0": {
-      "intl-messageformat-parser": "npm:intl-messageformat-parser@1.2.0"
+    "npm:intl-messageformat@1.1.0": {
+      "intl-messageformat-parser": "npm:intl-messageformat-parser@1.1.0"
     },
-    "npm:intl-relativeformat@1.2.0": {
-      "intl-messageformat": "npm:intl-messageformat@1.2.0"
+    "npm:intl-relativeformat@1.1.0": {
+      "intl-messageformat": "npm:intl-messageformat@1.1.0"
     },
     "npm:invariant@2.2.0": {
       "loose-envify": "npm:loose-envify@1.1.0",
@@ -180,13 +184,13 @@ System.config({
     "npm:react-dom@0.14.3": {
       "react": "npm:react@0.14.3"
     },
-    "npm:react-intl@2.0.0-beta-1": {
+    "npm:react-intl@2.0.0-pr-1": {
+      "babel-runtime": "npm:babel-runtime@5.8.34",
       "intl-format-cache": "npm:intl-format-cache@2.0.4",
-      "intl-messageformat": "npm:intl-messageformat@1.2.0",
-      "intl-relativeformat": "npm:intl-relativeformat@1.2.0",
-      "invariant": "npm:invariant@2.2.0",
+      "intl-messageformat": "npm:intl-messageformat@1.1.0",
+      "intl-relativeformat": "npm:intl-relativeformat@1.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2",
-      "react": "npm:react@0.14.3"
+      "react": "npm:react@0.14.0-rc1"
     },
     "npm:react-router@1.0.0": {
       "child_process": "github:jspm/nodelibs-child_process@0.1.0",
@@ -199,6 +203,11 @@ System.config({
     "npm:react-tap-event-plugin@0.2.1": {
       "fbjs": "npm:fbjs@0.2.1",
       "react": "npm:react@0.14.3"
+    },
+    "npm:react@0.14.0-rc1": {
+      "envify": "npm:envify@3.4.0",
+      "fbjs": "npm:fbjs@0.2.1",
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:react@0.14.3": {
       "envify": "npm:envify@3.4.0",

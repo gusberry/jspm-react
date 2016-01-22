@@ -28,10 +28,10 @@
       "baseURL": "public"
     },
     "dependencies": {
-      "capaj/jspm-hot-reloader": "github:capaj/jspm-hot-reloader@^0.4.2",
+      "capaj/jspm-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.4.2",
       "react": "npm:react@^0.14.3",
       "react-dom": "npm:react-dom@^0.14.3",
-      "react-intl": "npm:react-intl@2.0.0-beta-1",
+      "react-intl": "npm:react-intl@2.0.0-pr-1",
       "react-router": "npm:react-router@^1.0.0",
       "react-tap-event-plugin": "npm:react-tap-event-plugin@^0.2.1"
     },
